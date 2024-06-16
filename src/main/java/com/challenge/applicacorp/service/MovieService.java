@@ -20,7 +20,7 @@ public class MovieService {
     }
 
     public List<Movie> fetchAllMovies() {
-        List<Movie> movies = new ArrayList<>();
+        List<Movie> movies = new ArrayList<Movie>();
         int page = 1;
         MovieResponse response;
 
