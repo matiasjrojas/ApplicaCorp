@@ -9,8 +9,6 @@ public class Director implements Comparable<Director> {
     private String name;
     private int movieCount;
 
-    // Add constructors, getters, setters
-
     public Director(String name, int movieCount) {
         this.name = name;
         this.movieCount = movieCount;
